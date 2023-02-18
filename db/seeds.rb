@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+author = Author.create(name: 'Shraddha', phone_number: 234456122)
+post = Post.create(title: 'Star Wars', content: 'Hello, world, we are here for the first time and we are going to make life awesome' , summary: 'Star Wars', category: 'Fiction')
